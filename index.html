@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adit Singh Rathore | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== SIDEBAR ===== -->
+    <nav class="sidebar" id="sidebar" role="navigation" aria-label="Main navigation">
+        <button class="sidebar-close" id="sidebarClose" aria-label="Close navigation">
+            <i class="fas fa-times"></i>
+        </button>
+
+        <div class="sidebar-brand">
+            <i class="fas fa-code" style="color:var(--yellow);margin-right:0.4rem;"></i>
+            Adit<span>.</span>
+        </div>
+
+        <ul class="sidebar-nav">
+            <li><a href="#dashboard" class="active"><i class="fas fa-user"></i> Dashboard</a></li>
+            <li><a href="#skills"><i class="fas fa-project-diagram"></i> Skills</a></li>
+            <li><a href="#projects"><i class="fas fa-laptop-code"></i> Projects</a></li>
+            <li><a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
+        </ul>
+
+        <div class="sidebar-footer">
+            <div><i class="fas fa-envelope"></i> aditsinghrathore1@gmail.com</div>
+            <div><i class="fas fa-phone"></i> +91 9993595129</div>
+        </div>
+    </nav>
+
+    <!-- ===== SIDEBAR OVERLAY ===== -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- ===== HAMBURGER ===== -->
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open navigation">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main class="main">
+
+        <!-- ===== DASHBOARD ===== -->
+        <section id="dashboard">
+            <div class="dashboard glass">
+
+                <div class="profile-card">
+                    <div class="avatar-wrapper">
+                        <div class="profile-avatar">
+                            <img src="assets/profile.jpg" alt="Adit Singh Rathore" onerror="this.style.display='none';this.parentElement.textContent='AS';" />
+                        </div>
+                        <div class="speech-bubble">
+                            <span class="wave-hand">👋</span> Hey there!
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="profile-name">Adit Singh Rathore</div>
+                        <div class="profile-title">Computer Science · B.Tech</div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/aditsinghrathore/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/AditSinghRathore" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://leetcode.com/u/aditsinghrathore/" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="summary-text">
+                        <span id="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+
+                    <div class="edu-container">
+                        <div class="edu-row">
+                            <span class="institute">VIT Bhopal University</span>
+                            <span class="detail">B.Tech CSE · CGPA 8.08</span>
+                            <span class="badge">2023 – Present</span>
+                        </div>
+                        <div class="edu-row">
+                            <span class="institute">Eminent Heights Public School</span>
+                            <span class="detail">Class XII · 73.8% (PCM)</span>
+                            <span class="badge">2021–2023</span>
+                        </div>
+                        <div class="edu-row">
+                            <span class="institute">Vatsalya Sr. Sec. School</span>
+                            <span class="detail">Class X · 84.2%</span>
+                            <span class="badge">2021</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== SKILLS ===== -->
+        <section id="skills">
+            <div class="section-title">
+                <i class="fas fa-project-diagram"></i> Technical Skills
+            </div>
+            <div class="glass skills-graph">
+
+                <div class="skill-branch">
+                    <div class="branch-label"><i class="fas fa-code" style="margin-right:0.3rem;"></i> Languages</div>
+                    <div class="branch-connector"></div>
+                    <div class="branch-leaves">
+                        <span class="leaf">Java</span>
+                        <span class="leaf">C++</span>
+                        <span class="leaf">Python</span>
+                    </div>
+                </div>
+
+                <div class="skill-branch">
+                    <div class="branch-label"><i class="fas fa-cubes" style="margin-right:0.3rem;"></i> Frameworks</div>
+                    <div class="branch-connector"></div>
+                    <div class="branch-leaves">
+                        <span class="leaf">Spring Boot</span>
+                        <span class="leaf">JDBC</span>
+                    </div>
+                </div>
+
+                <div class="skill-branch">
+                    <div class="branch-label"><i class="fas fa-brain" style="margin-right:0.3rem;"></i> Core</div>
+                    <div class="branch-connector"></div>
+                    <div class="branch-leaves">
+                        <span class="leaf">DSA</span>
+                        <span class="leaf">OOP</span>
+                    </div>
+                </div>
+
+                <div class="skill-branch">
+                    <div class="branch-label"><i class="fas fa-globe" style="margin-right:0.3rem;"></i> Web</div>
+                    <div class="branch-connector"></div>
+                    <div class="branch-leaves">
+                        <span class="leaf">HTML</span>
+                        <span class="leaf">CSS</span>
+                        <span class="leaf">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-branch">
+                    <div class="branch-label"><i class="fas fa-robot" style="margin-right:0.3rem;"></i> AI &amp; ML</div>
+                    <div class="branch-connector"></div>
+                    <div class="branch-leaves">
+                        <span class="leaf">Fundamentals</span>
+                        <span class="leaf">ML</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS ===== -->
+        <section id="projects">
+            <div class="section-title">
+                <i class="fas fa-laptop-code"></i> Projects
+            </div>
+            <div class="glass" style="padding:1.2rem 1.2rem 0.2rem;">
+                <div class="projects-carousel-wrapper">
+                    <button class="carousel-nav prev" aria-label="Previous project">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+
+                    <div class="projects-carousel">
+                        <div class="project-card">
+                            <div class="project-thumb">
+                                <img src="assets/project-ticket.jpg" alt="Ticket Booking" onerror="this.style.display='none';this.parentElement.innerHTML='<i class=\'fas fa-ticket-alt placeholder-icon\'></i>';" />
+                            </div>
+                            <div class="project-info">
+                                <h4>Ticket Booking System</h4>
+                                <div class="tech-tags"><span>Java</span><span>OOP</span><span>JDBC</span><span>MySQL</span></div>
+                                <ul class="project-bullets">
+                                    <li>Railway reservation with booking, cancellation &amp; seat availability</li>
+                                    <li>OOP + Collections Framework for modular data management</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-thumb">
+                                <img src="assets/project-text.jpg" alt="Text Analyzer" onerror="this.style.display='none';this.parentElement.innerHTML='<i class=\'fas fa-pen-fancy placeholder-icon\'></i>';" />
+                            </div>
+                            <div class="project-info">
+                                <h4>Text Writing Analyzer</h4>
+                                <div class="tech-tags"><span>JavaScript</span><span>HTML</span><span>CSS</span></div>
+                                <ul class="project-bullets">
+                                    <li>Web-based tool for analyzing textual input</li>
+                                    <li>Tone / sentiment feedback — positive, negative, neutral</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-thumb">
+                                <img src="assets/project-autocodex.jpg" alt="AutoCodex" onerror="this.style.display='none';this.parentElement.innerHTML='<i class=\'fas fa-robot placeholder-icon\'></i>';" />
+                            </div>
+                            <div class="project-info">
+                                <h4>AutoCodex</h4>
+                                <div class="tech-tags"><span>Python</span><span>Automation</span></div>
+                                <ul class="project-bullets">
+                                    <li>Conceptual Python script generation for accessibility</li>
+                                    <li>Minimal-input coding workflows for disabled users</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-nav next" aria-label="Next project">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CERTIFICATIONS ===== -->
+        <section id="certifications">
+            <div class="section-title">
+                <i class="fas fa-certificate"></i> Certifications
+            </div>
+            <div class="glass" style="padding:1.8rem 1.5rem;">
+                <div class="certs-grid">
+                    <a href="https://www.credly.com/badges/94f349f7-78f4-4d1a-86d6-f281b945cb22/public_url" class="cert-btn" target="_blank">
+                        <i class="fas fa-certificate"></i> Google IT Support
+                    </a>
+                    <a href="https://www.linkedin.com/posts/aditsinghrathore_excited-to-share-that-ive-completed-the-share-7428050581618970625-GY0f/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEYtDr4BYuBveZIFtY5n5HXW98iGoN7tkiI" class="cert-btn" target="_blank">
+                        <i class="fas fa-cloud"></i> IBM Cloud Fundamentals
+                    </a>
+                    <a href="https://www.linkedin.com/posts/aditsinghrathore_proud-to-share-that-ive-successfully-completed-share-7428049202955493376-wlJY/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEYtDr4BYuBveZIFtY5n5HXW98iGoN7tkiI" class="cert-btn" target="_blank">
+                        <i class="fas fa-robot"></i> Intro to ML – NPTEL
+                    </a>
+                    <a href="https://www.linkedin.com/posts/aditsinghrathore_proud-to-have-completed-introduction-to-data-share-7429604619191750656-aD7s/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEYtDr4BYuBveZIFtY5n5HXW98iGoN7tkiI" class="cert-btn" target="_blank">
+                        <i class="fas fa-robot"></i> Introduction to Data Science
+                    </a>
+                    <a href="https://www.linkedin.com/posts/aditsinghrathore_nptel-marketinganalytics-continuouslearning-share-7485004398482432001-9jdZ/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEYtDr4BYuBveZIFtY5n5HXW98iGoN7tkiI" class="cert-btn" target="_blank">
+                        <i class="fas fa-chart-line"></i> Marketing Analytics – NPTEL
+                    </a>
+                </div>
+                <div class="cert-credit">
+                    <i class="fas fa-link"></i> Click any badge to view
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FOOTER ===== -->
+        <div class="footer">
+            &copy; 2025 Adit Singh Rathore &middot; Built with <i class="fas fa-heart"></i>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
